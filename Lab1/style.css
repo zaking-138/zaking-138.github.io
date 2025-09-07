@@ -70,6 +70,12 @@ nav {
     color: rgb(0, 52, 80);
     font-family: 'TASA', sans-serif;
     font-variant: small-caps;
+    
+}
+
+.button:hover{
+     background-color: rgba(181, 163, 100, 0.3);
+     color:  rgb(0, 76, 229);
 }
 
 #welcome_message {
