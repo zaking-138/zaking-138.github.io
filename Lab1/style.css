@@ -8,23 +8,18 @@
     src: url(fonts/Recursive/Recursive-VariableFont_CASL\,CRSV\,MONO\,slnt\,wght.ttf);
 }
 
-
 .page_title {
    font-size: 8em;
     font-family: Recursive;
     text-shadow: 4px 4px 10px #000000f0;
     background-color: rgba(244, 219, 182, 0.498);
     width: 100%;
-    /* min-width: 100vh; */
-    
 }
 .top {
-     width: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
-    color: rgb(244, 219, 182);
-    
-    /* centers content within the block element */
+    color: rgb(247, 233, 211);
     text-align: center;
     vertical-align: middle;
     
@@ -38,21 +33,17 @@
     justify-content: center;
 }
 
-#row {
-    
+#row { 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap-reverse;
-
-
 }
 
 .img_1 {
     width: 100%;
     height: 2in;
     box-shadow: 4px 4px 10px #000000f0;
-    /* border: 5px double rgb(0, 20, 59);*/
     object-fit: cover;
 }
 
@@ -60,21 +51,14 @@ figcaption {
     text-align: center;
 }
 
-
-
 body {
     box-shadow: 4px 4px 10px #000000f0;
     background-color: blanchedalmond;
     padding: 0%;
     font-family: Recursive;
-
-
 }
 
 .main {
-    /* margin-left: 20vh;
-    margin-right: 20vh; */
-    
     min-height: 55vh;
     margin-top: 5px;
 }
@@ -90,12 +74,7 @@ nav {
 }
 
 .button {
-    /* background-color: rgb(251, 227, 138, 0.3);
-    border: 5px double rgb(0, 20, 59);
-
-    padding: 5px;
-    width: 33%;
-    color: rgb(0, 52, 80); */
+    
     background-color: rgb(251, 227, 138, 0.3);
     /* Green */
     border: none;
@@ -145,7 +124,7 @@ nav {
     box-shadow: 4px 4px 10px #000000f0;
     color: rgb(0, 20, 59);
     background-color: rgb(251, 227, 138, 0.3);
-    /* border: 5px double rgb(0, 20, 59);*/
+    
     padding: 5px;
     
 }
@@ -160,7 +139,7 @@ nav {
     margin-top: 5px;
     color: rgb(0, 20, 59);
     background-color: rgb(251, 227, 138, 0.3);
-    /* border: 5px double rgb(0, 20, 59);*/
+    
     padding: 5px;
     width: 50%;
     box-shadow: 4px 4px 10px #000000a2;
@@ -172,10 +151,6 @@ nav {
     margin-inline: 5px;
     margin-block: 10px;
     box-shadow: 4px 4px 10px #000000f0;
-
-    /* border: 5px double rgb(0, 20, 59);*/
-
-
     &>iframe {
         width: 100%;
         height: 80vh;
@@ -187,26 +162,22 @@ nav {
 
 .page-bottom {
 
-
-    /* position: fixed;
-    margin-top: ;
-    left: 0;
-    bottom: 0; */
-
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
-    font-family: TASA;
-    font-size: 1em;
 
     color: rgb(0, 20, 59);
     background-color: rgba(46, 36, 0, 0.13);
-    /* border: 5px double rgb(0, 20, 59);*/
     padding: 5px;
     box-shadow: 4px 4px 10px #000000f0;
 
+}
+
+.small_text {
+    font-family: TASA;
+    font-size:small;
+    
 }
 
 .footer {
