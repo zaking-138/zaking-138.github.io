@@ -8,37 +8,51 @@
     src: url(fonts/Recursive/Recursive-VariableFont_CASL\,CRSV\,MONO\,slnt\,wght.ttf);
 }
 
-.page_title {
-    max-height: ;
-    color: #0488a9;
-    background-color: rgb(251, 227, 138, 0.3); 
 
-    /* centers content within the block element */
-    text-align: center;
-    /* centers content within the webpage */
-    margin-top: 15px;
-    margin: 0 auto;
-    padding: 15px;
-    border: 5px double rgb(0, 20, 59);
-    font-size: 8em;
+.page_title {
+   font-size: 8em;
     font-family: Recursive;
     text-shadow: 4px 4px 10px #000000f0;
+    background-color: rgba(244, 219, 182, 0.498);
+    width: 100%;
+    /* min-width: 100vh; */
     
-
+}
+.top {
+     width: 100%;
+    display: flex;
+    align-items: center;
+    color: rgb(244, 219, 182);
+    
+    /* centers content within the block element */
+    text-align: center;
+    vertical-align: middle;
+    
+    margin: 0 auto;
+    
+    
+    min-height: 30vh;
+    background-image: url("img/csumb_student_union.jpg");
+    background-repeat: repeat;
+    box-shadow: 4px 4px 10px #000000f0;
+    justify-content: center;
 }
 
 #row {
+    
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap-reverse;
+
 
 }
 
 .img_1 {
     width: 100%;
     height: 2in;
-    border: 5px double rgb(0, 20, 59);
+    box-shadow: 4px 4px 10px #000000f0;
+    /* border: 5px double rgb(0, 20, 59);*/
     object-fit: cover;
 }
 
@@ -46,18 +60,23 @@ figcaption {
     text-align: center;
 }
 
-header {
-    background-image: url("img/csumb_student_union.jpg");
-    background-repeat: repeat;
-    /* width: 95%; */
 
-}
 
 body {
+    box-shadow: 4px 4px 10px #000000f0;
     background-color: blanchedalmond;
     padding: 0%;
     font-family: Recursive;
+
+
+}
+
+.main {
+    /* margin-left: 20vh;
+    margin-right: 20vh; */
     
+    min-height: 55vh;
+    margin-top: 5px;
 }
 
 nav {
@@ -66,6 +85,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     text-shadow: 2px 2px 5px #000000a9;
+    box-shadow: 4px 4px 10px #00000096;
     /* width: 95%; */
 }
 
@@ -76,106 +96,119 @@ nav {
     padding: 5px;
     width: 33%;
     color: rgb(0, 52, 80); */
-    background-color: #0488a9; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  width: 33%;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+    background-color: rgb(251, 227, 138, 0.3);
+    /* Green */
+    border: none;
+    color: rgb(0, 20, 59);
+    padding: 15px 32px;
+    width: 33%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
     font-family: 'Recursive', sans-serif;
-    border: 2px solid #036178;
-    
-    
-}
-.button1{
-    background-color: #0488a9; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  width: 33%;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-    font-family: 'Recursive', sans-serif;
-    border: 2px solid #036178;
-    
+    border: 1px solid rgba(48, 42, 19, 0.158);
+
+
+
 }
 
-.button:hover{
-     background-color: #0488a98f;
-     color:  rgb(0, 76, 229);
+.button1 {
+    background-color: rgb(251, 227, 138, 0.3);
+    /* Green */
+    border: none;
+    color: rgb(0, 85, 255);
+    padding: 15px 32px;
+    width: 33%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Recursive', sans-serif;
+    border: 1px solid rgba(48, 42, 19, 0.158);
+
+}
+
+.button:hover {
+    background-color: #04b8bb50;
+    color: rgb(0, 76, 229);
 }
 
 .button1:hover {
-      background-color: #0488a98f;
-     color:  rgb(0, 76, 229);
+    background-color: #04b8bb50;
+    color: rgb(0, 76, 229);
+    
+    
 }
 
 #welcome_message {
+    box-shadow: 4px 4px 10px #000000f0;
     color: rgb(0, 20, 59);
     background-color: rgb(251, 227, 138, 0.3);
-    border: 5px double rgb(0, 20, 59);
+    /* border: 5px double rgb(0, 20, 59);*/
     padding: 5px;
+    
 }
 
 .information {
     display: flex;
     gap: 5px;
+    justify-content: top;
 }
 
 .table-1 {
     margin-top: 5px;
     color: rgb(0, 20, 59);
     background-color: rgb(251, 227, 138, 0.3);
-    border: 5px double rgb(0, 20, 59);
+    /* border: 5px double rgb(0, 20, 59);*/
     padding: 5px;
     width: 50%;
+    box-shadow: 4px 4px 10px #000000a2;
+    
 }
 
 
 .form {
     margin-inline: 5px;
     margin-block: 10px;
-    
-    border: 5px double rgb(0, 20, 59);
-    
+    box-shadow: 4px 4px 10px #000000f0;
+
+    /* border: 5px double rgb(0, 20, 59);*/
+
 
     &>iframe {
         width: 100%;
-        height: 640px;
+        height: 80vh;
         display: block;
         padding-right: 5px;
     }
 
 }
-.page-bottom{
-    
-    min-height: calc(100%-);
-    position: fixed;
-    margin: auto;
+
+.page-bottom {
+
+
+    /* position: fixed;
+    margin-top: ;
+    left: 0;
+    bottom: 0; */
+
+
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
-    padding-top: 10px;
-    
-   font-family: TASA;
-    left: 0;
-    bottom: 0;
-    
+    justify-content: space-between;
 
-}
+    font-family: TASA;
+    font-size: 1em;
 
-.footer{
-    margin-top: auto;
-}
-.line{
     color: rgb(0, 20, 59);
-    border: 5px double rgb(0, 20, 59);
-    width: 100%;
-   margin-right: ;
-    margin-bottom: auto;
+    background-color: rgba(46, 36, 0, 0.13);
+    /* border: 5px double rgb(0, 20, 59);*/
+    padding: 5px;
+    box-shadow: 4px 4px 10px #000000f0;
+
+}
+
+.footer {
+    margin-top: auto;
 }
