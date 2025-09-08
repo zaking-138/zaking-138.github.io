@@ -3,8 +3,14 @@
     src: url(fonts/TASA_Explorer/TASAExplorer-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: "Recursive";
+    src: url(fonts/Recursive/Recursive-VariableFont_CASL\,CRSV\,MONO\,slnt\,wght.ttf);
+}
+
 .page_title {
-    color: rgb(0, 20, 59);
+    max-height: ;
+    color: #0488a9;
     background-color: rgb(251, 227, 138, 0.3); 
 
     /* centers content within the block element */
@@ -15,8 +21,9 @@
     padding: 15px;
     border: 5px double rgb(0, 20, 59);
     font-size: 8em;
-    font-family: TASA;
-    font-variant: small-caps;
+    font-family: Recursive;
+    text-shadow: 4px 4px 10px #000000f0;
+    
 
 }
 
@@ -49,8 +56,8 @@ header {
 body {
     background-color: blanchedalmond;
     padding: 0%;
-    font-family: TASA;
-    font-variant: small-caps;
+    font-family: Recursive;
+    
 }
 
 nav {
@@ -58,23 +65,53 @@ nav {
     text-align: center;
     display: flex;
     justify-content: space-evenly;
+    text-shadow: 2px 2px 5px #000000a9;
     /* width: 95%; */
 }
 
 .button {
-    background-color: rgb(251, 227, 138, 0.3);
+    /* background-color: rgb(251, 227, 138, 0.3);
     border: 5px double rgb(0, 20, 59);
 
     padding: 5px;
     width: 33%;
-    color: rgb(0, 52, 80);
-    font-family: 'TASA', sans-serif;
-    font-variant: small-caps;
+    color: rgb(0, 52, 80); */
+    background-color: #0488a9; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  width: 33%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    font-family: 'Recursive', sans-serif;
+    border: 2px solid #036178;
+    
+    
+}
+.button1{
+    background-color: #0488a9; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  width: 33%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    font-family: 'Recursive', sans-serif;
+    border: 2px solid #036178;
     
 }
 
 .button:hover{
-     background-color: rgba(181, 163, 100, 0.3);
+     background-color: #0488a98f;
+     color:  rgb(0, 76, 229);
+}
+
+.button1:hover {
+      background-color: #0488a98f;
      color:  rgb(0, 76, 229);
 }
 
@@ -115,8 +152,30 @@ nav {
     }
 
 }
-/* .page-bottom{
-    background-color: rgb(251, 227, 138, 0.3); 
-   background-image: url("img/csumb_student_union.jpg");
-   
-} */
+.page-bottom{
+    
+    min-height: calc(100%-);
+    position: fixed;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-top: 10px;
+    
+   font-family: TASA;
+    left: 0;
+    bottom: 0;
+    
+
+}
+
+.footer{
+    margin-top: auto;
+}
+.line{
+    color: rgb(0, 20, 59);
+    border: 5px double rgb(0, 20, 59);
+    width: 100%;
+   margin-right: ;
+    margin-bottom: auto;
+}
