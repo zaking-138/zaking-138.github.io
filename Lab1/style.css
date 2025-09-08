@@ -177,7 +177,7 @@ nav {
 .small_text {
     font-family: TASA;
     font-size:small;
-    
+    color: rgba(0, 0, 0, 0.672);
 }
 
 .footer {
