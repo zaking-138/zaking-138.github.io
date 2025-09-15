@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Google Sans Code;
+    src: url(fonts/Google_Sans_Code/GoogleSansCode-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Nunito Sans;
+    src: url(fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+}
+body{
+    font-family: Nunito Sans;
+    margin-top: 5px;
+    margin: auto;
+    max-width: 100vh;
+    min-height: 1080px;
+    padding: 5px;
+    box-shadow: grey 4px 4px 10px;
+}
+.title-navigation{
+    padding: 0px 10px 0px;
+}
+.navigation{
+    display: flex;
+    padding: 0vh 2vh 2vh;
+    gap: 2vh;
+}
+.page-title{
+    font-size: xxx-large;
+}
+.button{
+    font-family: Google Sans Code;
+    color: black;
+}
+.button:hover{
+    background-color: red;
+    color: white;
+}
+.button-c{
+    font-family: Google Sans Code;
+    color: red;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 0px 10px 10px;
+}
+.main > div {
+    gap: 5px;
+    width: 30vh;
+    
+}
+.main-body{
+    text-indent: 3vh;
+    font-size: large;
+    background-color: rgb(247, 247, 247);
+    padding: 10px;
+}
+h3{
+    padding-left: 10px;
+    text-decoration: underline;
+}
+.graphic{
+    padding: 20px 0px 0px;
+    width: 30vh;
+}
+/* footer{
+    font-family: Google Sans Code;
+    color: white;
+    background-color: black;
+    width: 95vh;
+    padding: 20px;
+    text-align: center;
+    position:fixed;
+    bottom: 0px;
+} */

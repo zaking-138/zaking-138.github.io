@@ -1,0 +1,80 @@
+body{
+    background-color: lightgrey;
+    overflow: auto;
+    margin: 0px 0px 0px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.title-navigation{
+    background-color:rgba(255, 182, 193, 0.233);
+    padding: 10px;
+    align-items: center;
+}
+
+.title{
+    
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.097);
+    text-decoration: underline;
+    
+    align-items: center;
+    padding: 0 0 0 0;
+    color: rgb(97, 57, 64);
+    text-shadow: 4px 4px 10px;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+.button{
+    /* text */
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+
+    /* shape */
+    background-color: rgb(97, 57, 64);
+    padding: 1vh;
+    width: 25%;
+    border: 5px ridge rgb(97, 57, 64);    
+    
+}
+.button:hover {
+    background-color: aliceblue;
+    color: rgb(0, 29, 29);
+
+    /* border */
+    border: 5px ridge pink; 
+}
+.button:active{
+    background-color: lightpink;
+}
+.button-c{
+    /* text */
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+
+    /* shape */
+    background-color: palevioletred;
+    padding: 1vh;
+    width: 25%;
+    
+
+    /* border */
+    border: 5px ridge pink; 
+}
+.button-c:hover {
+    background-color: aliceblue;
+    color: rgb(0, 29, 29);
+
+    /* border */
+    border: 5px ridge pink; 
+}
+.button-c:active{
+    background-color: rgb(176, 0, 0);
+}

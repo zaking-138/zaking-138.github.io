@@ -1,0 +1,30 @@
+.game{
+    background-image: url("img/questions.jpg");
+    background-repeat: repeat-x;
+    
+}
+.inputWindow{
+    align-items: center;
+}
+.title {
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-radius: 20px;
+}
+.inputWindow {
+    text-align: center;
+}
+
+.text{
+    background-color: rgba(0, 0, 0, 0.599);
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    text-shadow: 4px 4px 10px;
+    border-radius: 20px;
+}
+.output {
+    background-color: aliceblue;
+    border-radius: 20px;
+}
