@@ -1,0 +1,59 @@
+body{
+    font-family: monospace;
+    text-align: center;
+}
+header{
+    color: white;
+    text-decoration: underline;
+    background-color: rgba(255, 0, 0, 0.888);
+    padding: 1vh;
+    text-shadow: 4px 4px 10px black;
+    box-shadow: 4px 4px 10px black;
+}
+h2>span{
+        background-color: white;
+        color: black;
+        text-shadow: none;
+        text-decoration: none;
+}
+#resetBtn{
+    margin: 1vh;
+}
+#feedback{
+    font-size: 1em;
+    color: white;
+    text-shadow: 4px 4px 10px black;
+    padding: 5px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    box-shadow: 4px 4px 10px black;
+}
+#attemptsLeft{
+    display: flex;
+    justify-content: center;
+    
+    padding: 5px;
+}
+#bottom{
+    display: flex;
+    justify-content: space-evenly;
+    
+    padding: 1vh;
+}
+#wins{
+    color: rgba(0, 138, 11, 0.888);
+    /* text-shadow: 4px 4px 10px black; */
+    box-shadow: 4px 4px 10px black;
+    padding: 1vh;
+}
+#losses{
+    color: rgba(255, 0, 0, 0.888);
+    /* text-shadow: 4px 4px 10px black; */
+    box-shadow: 4px 4px 10px black;
+    padding: 1vh;
+}
+#record{
+    display: flex;
+    
+    gap: 10px;
+}
