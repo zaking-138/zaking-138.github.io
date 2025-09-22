@@ -25,7 +25,7 @@ function initializeGame() {
     document.querySelector("#attemptsLeft").textContent = "Attempts Left: " + (7 - attempts);
 
     let playerGuess = document.querySelector("#playerGuess");
-    // playerGuess.focus();
+    playerGuess.focus();
     playerGuess.value = "";
 
     let feedback = document.querySelector("#feedback");
