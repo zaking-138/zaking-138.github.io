@@ -34,6 +34,32 @@ h2>span{
     
     padding: 5px;
 }
+#guessBtn{
+    font-family: monospace;
+    font-size: 1.5vh;
+    color: white;
+    text-decoration: underline;
+    width: fit-content;
+    background-color: rgba(255, 30, 30, 0.878);
+    box-shadow: 4px 4px 10px black;
+    text-shadow: 4px 4px 10px black;
+    /* border-radius: 5px; */
+    border: none;
+    padding: 5px;
+}
+#resetBtn{
+    font-family: monospace;
+    font-size: 1.5vh;
+    color: white;
+    text-decoration: underline;
+    width: fit-content;
+    box-shadow: 4px 4px 10px black;
+    text-shadow: 4px 4px 10px black;
+    background-color: rgba(255, 30, 30, 0.878);
+    /* border-radius: 5px; */
+    border: none;
+    padding: 5px;
+}
 #bottom{
     display: flex;
     justify-content: space-evenly;
@@ -41,13 +67,15 @@ h2>span{
     padding: 1vh;
 }
 #wins{
-    color: rgba(0, 138, 11, 0.888);
+    color: white;
+    background-color: rgba(0, 138, 11, 0.888);
     /* text-shadow: 4px 4px 10px black; */
     box-shadow: 4px 4px 10px black;
     padding: 1vh;
 }
 #losses{
-    color: rgba(255, 0, 0, 0.888);
+    color: white;
+    background-color:  rgba(255, 0, 0, 0.888);
     /* text-shadow: 4px 4px 10px black; */
     box-shadow: 4px 4px 10px black;
     padding: 1vh;
