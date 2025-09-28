@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Javascript Homework - Shopping</title>
+</head>
+<body>
+    <header>
+        <h1>PC Builder</h1>
+         <label for="part-boxes">Select your parts:</label>
+    </header>
+    <div id="main">
+        <div id="part-boxes">
+            <div class="box">
+                <h3>Generic Case</h3>
+                <h4>$180.99</h4>
+                <div>
+                    <img id="case-img1" src="img/black-pc.png" alt="">
+                </div>
+                <div class="option-select">
+                    <div>
+                        <input type="radio" class="color-btn" name="color-choice" value="black" checked>
+                        <label for="black">Black</label>
+                    </div>
+                    <div>
+                        <input type="radio" class="color-btn" name="color-choice" value="white">
+                        <label for="white">White</label>
+                    </div>
+                    <div>
+                        <input type="radio" class="color-btn" name="color-choice" value="blue">
+                        <label for="blue">Blue</label>
+                    </div>
+                </div>
+                <div>
+                    <br>
+                    <input type="number" id="case-quantity"  min="0" max="5">
+                    <button class="add-btn">Add</button>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Generic CPU</h3>
+                <h4>$436.99</h4>
+                <div>
+                    <img id="cpu-img" src="img/ryzen-cpu.jpg" alt="">
+                </div>
+                
+                <div class="option-select">
+                    <div>
+                        <input type="radio" class="cpu-btn" name="cpu-choice" value="amd" checked>
+                        <label for="amd">Ryzen 7 9800X3D</label>
+                    </div>
+                    <div>
+                        <input type="radio" class="cpu-btn" name="cpu-choice" value="intel-i9">
+                        <label for="intel-i9">Core i9-14900K</label>
+                    </div>
+                    <div>
+                        <input type="radio" class="cpu-btn" name="cpu-choice" value="intel-i7">
+                        <label for="intel-i7">Core i7-13700</label>
+                    </div>
+                </div>
+                <div>
+                    <br>
+                    <input type="number" id="cpu-quantity"  min="0" max="5">
+                    <button class="add-btn1">Add</button>
+                </div>
+                
+            </div>
+            <div class="box">
+                <h3>Generic GPU</h3>
+                <h4>$504.99</h4>
+                <div>
+                    <img id="gpu-img" src="img/gigabyte-gpu.jpg" alt="">
+                </div>
+                <div class="option-select">
+                    <div>
+                        <input type="radio" class="gpu-btn" name="gpu-choice" value="gigabyte" checked>
+                        <label for="gigabyte">Radeon RX 9060 XT</label>
+                    </div>
+                    <div>
+                        <input type="radio" class="gpu-btn" name="gpu-choice" value="nvidia">
+                        <label for="nvidia">Asus Prime GeForce RTX 5070 Ti</label>
+                    </div>
+                    <div>
+                        <input type="radio" class="gpu-btn" name="gpu-choice" value="intel">
+                        <label for="intel">Arc B580</label>
+                    </div>
+                </div>
+                <div>
+                    <br>
+                    <input type="number" id="gpu-quantity" min="0" max="5">
+                    <button class="add-btn2">Add</button>
+                </div>
+            </div>
+        </div>
+        <div id="checkout">
+            <div id="cart">
+                
+            </div>
+            <h2>Subtotal: $<span id="subtotal">0.00</span></h2>
+            <label for="promo-code">Promo Code?</label>
+            <input type="text" id="promo-code">
+        </div>
+    </div>
+</body>
+</html>

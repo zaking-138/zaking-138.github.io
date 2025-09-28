@@ -1,0 +1,52 @@
+body{
+    margin: 10vh;
+    background-color: lightgrey;
+    font-family: monospace;
+}
+header{
+    background-color: white;
+    margin-bottom: 2vh;
+    padding: 0vh 1vh 1vh 1vh;
+    box-shadow: 4px 4px 10px black;
+    font-size: large;
+}
+h1{
+    font-size: xxx-large;
+}
+#part-boxes{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 30%;
+    background-color: white;
+    box-shadow: 4px 4px 10px black;
+    align-items: center;
+    padding-bottom: 3vh;
+}
+.option-select{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+#case-img1{
+    width: 40vh;
+    height: 40vh;
+    
+}
+#cpu-img{
+    width: 40vh;
+    height: 40vh;
+}
+#gpu-img{
+    width: 40vh;
+    height: 40vh;
+}
