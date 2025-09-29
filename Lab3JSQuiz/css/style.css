@@ -24,8 +24,8 @@ h1{
     box-shadow: 4px 4px 10px grey;
 }
 .image{
-    height: 20%;
-    width: 20%;
+    height: 5vh;
+    width: 5vh;
 }
 .bottom{
     display: flex;
