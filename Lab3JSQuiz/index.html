@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Quiz</title>
+</head>
+
+<header>
+    <h1>Random CS Facts Quiz</h1>
+</header>
+
+<div id="banner">
+    <p>Congratulations! Your score was above 80%!</p>
+</div>
+
+<body>
+    <div class="question">
+        <label for="a1">Which symbol is used to refer to an ID in Javascrpit?</label>
+        <input id="a1" type="text" size="10">
+        <div class="bottom">
+            <p id="a1-result"></p>
+            <img class="image" id="a1-image" src="" alt="">
+        </div>
+    </div>
+
+    <div class="question">
+        <label for="a2">How many bits in a byte?</label>
+        <input id="a2" type="number">
+        <p id="a2-result"></p>
+    </div>
+
+    <div class="question">
+        <label for="q3-answers">Which language is the best?</label>
+
+        <div>
+            <input type="radio" id="1" name="q3-answers" value="Java" checked>
+            <label for="1">Java</label>
+        </div>
+
+        <div>
+            <input type="radio" id="2" name="q3-answers" value="Python">
+            <label for="2">Python</label>
+        </div>
+
+        <div>
+            <input type="radio" id="3" name="q3-answers" value="C++">
+            <label for="3">C++</label>
+        </div>
+        <p id="a3-result"></p>
+    </div>
+
+    <div class="question">
+        <label for="q5-answers">What term declares a variable in Javascript?</label>
+
+        <div>
+            <input type="radio" id="const" name="q5-answers" value="const" checked>
+            <label for="const">const</label>
+        </div>
+
+        <div>
+            <input type="radio" id="let" name="q5-answers" value="let">
+            <label for="let">let</label>
+        </div>
+
+        <div>
+            <input type="radio" id="int" name="q5-answers" value="int">
+            <label for="int">int</label>
+        </div>
+
+        <p id="a5-result"></p>
+    </div>
+
+    <div class="question">
+        <label for="q4-answers">How did you feel taking this quiz?</label>
+        <select name="q4-answers" id="q4">
+            <option value="good">Good</option>
+            <option value="ok">Ok</option>
+            <option value="not good">Not Good</option>
+            <option value="awful">Awful</option>
+        </select>
+        <p id="a4-result"></p>
+    </div>
+
+    <div id="results">
+        <button id="submit">Submit</button>
+        <p id="attempts">Attempts: <span id="attempts-number"></span></p>
+        <p id="score-placeholder">Score:</p>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/underscore@1.13.7/underscore-umd-min.js"></script>
+<script src="js/script.js"></script>
+
+</html>
