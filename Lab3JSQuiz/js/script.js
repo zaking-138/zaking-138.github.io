@@ -12,11 +12,11 @@ let a5Message = document.querySelector("#a5-result");
 let banner = document.querySelector("#banner");
 
 
-let correctImage = "https://zaking-138.github.io/Lab3JSQuiz/img/right.png"
-let incorrectImage = "https://zaking-138.github.io/Lab3JSQuiz/img/wrong.png"
+let correctImage = "img/right.png"
+let incorrectImage = "img/wrong.png"
 
 let images = document.querySelectorAll(".image")
-for(let image of images){
+for (let image of images) {
     image.style.display = "none";
 }
 
@@ -25,6 +25,7 @@ banner.style.display = "none";
 submitButton.addEventListener("click", function () {
     countSubmits();
     score = 0;
+
     let answer1 = document.querySelector("#a1").value;
     if (answer1 === "#") {
         a1Message.textContent = "Nice Job!";
@@ -82,10 +83,14 @@ submitButton.addEventListener("click", function () {
     } else {
         a4Message.textContent = "Wrong!";
         a4Message.style.color = "red";
-         document.querySelector("#a4-image").src = incorrectImage;
+        document.querySelector("#a4-image").src = incorrectImage;
     }
 
     scorePlaceholder.textContent = "Score: " + score + "/100";
+
+    for (let image of images) {
+        image.style.display = "block";
+    }
 
     if (score > 80) {
         banner.style.display = "block";
