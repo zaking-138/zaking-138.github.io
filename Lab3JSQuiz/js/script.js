@@ -12,8 +12,8 @@ let a5Message = document.querySelector("#a5-result");
 let banner = document.querySelector("#banner");
 
 
-let correctImage = "img/right.png"
-let incorrectImage = "img/wrong.png"
+let correctImage = "https://zaking-138.github.io/Lab3JSQuiz/img/right.png"
+let incorrectImage = "https://zaking-138.github.io/Lab3JSQuiz/img/wrong.png"
 
 let images = document.querySelectorAll(".image")
 for(let image of images){
