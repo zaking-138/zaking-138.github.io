@@ -4,40 +4,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
     <title>Document</title>
 
-    <script src="js/script.js" defer></script>
+
 </head>
 
 <body>
 
+    <div class="background-box" id="top-box">
+        <h1> Sign Up Form </h1>
+    </div>
 
-    <h1> Sign Up Form </h1>
+    <fieldset id="weird-border">
+        <legend id="form-title">Sign Up</legend>
+        <div id="inner-form">
+            <div class="info-box" id="top-info">
+                <div>
+                    First Name: <input class="gen-input" type="text">
+                </div>
+                <div>
+                    Last Name: <input class="gen-input" type="text">
+                </div>
+                <div>
+                    Email: <input class="gen-input" type="text">
+                </div>
+                <div>
+                    Phone Number:<input class="gen-input" type="text">
+                </div>
+            </div>
+            <div class="info-box" id="zip-info">
+                <div>
+                    Zip Code: <input class="gen-input" id="zip" type="text">
+                    <p id="zip-error">Error, zip code not found!</p>
+                </div>
+                <div>
+                    City: <div class="zip-stuff" id="city"></div>
+                </div>
 
-    <fieldset>
-        <legend>Sign Up</legend>
-        First Name: <input type="text"><br>
-        Last Name: <input type="text"><br>
-        Email: <input type="text"><br>
-        Phone Number:<input type="text"><br><br>
-        Zip Code: <input id="zip" type="text"><br>
-        City: <div id="city"></div>
-        <br>
-        Latitude: <div id="latitude"></div>
-        <br>
-        Longitude: <div id="longitude"></div>
-        <br><br>
-        State: <select name="states-select" id="states-select"></select>
-        <br>
-        Select a County: <select name="counties-select" id="counties-select"></select><br>
+                <div>
+                    Latitude: <div class="zip-stuff" id="latitude"></div>
+                </div>
+                <div>
+                    Longitude: <div class="zip-stuff" id="longitude"></div>
+                </div>
+            </div>
+            <div class="info-box" id="state-info">
+                <div>
+                    State: <select name="states-select" id="states-select"></select>
+                </div>
+                <div>
+                    Select a County: <select name="counties-select" id="counties-select"></select>
+                </div>
 
-        Desired Username: <input id="username" type="text">
-        <span id="error-message"></span><br>
-        Password: <input id="password" type="password">
-        <span id="suggested-pw"></span><br>
-        Type Password Again: <input type="password"><br>
-        <input type="submit" value="Sign up!">
+            </div>
+
+            <div class="info-box" id="user-password-info">
+                <div>
+                    Desired Username: <input class="gen-input" id="username" type="text">
+                    <span id="error-message"></span>
+                </div>
+                <div>
+                    Password: <input class="gen-input" id="password" type="password">
+                    <span id="password-error"></span>
+                    <span id="suggested-pw"></span>
+                </div>
+                <div>
+                    Type Password Again: <input class="gen-input" id="retype-password" type="password">
+                    <p id="retype-error"></p>
+                </div>
+            </div>
+        </div>
+        <div id="submit-area">
+            <button class="gen-input" id="sign-up">Sign up!</button>
+        </div>
     </fieldset>
+
+     <div class="background-box" id="bottom-box"></div>
 
 </body>
 

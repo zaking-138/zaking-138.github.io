@@ -1,0 +1,52 @@
+#inner-form{
+    display: flex;
+    justify-content: space-between;
+    gap: 3vh;
+}
+#submit-area{
+    display: flex;
+    justify-content: right;
+}
+.info-box{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    font-family: monospace;
+}
+#states-select{
+    font-family: monospace;
+    background-color: lightblue;
+    border: solid 1px grey;
+}
+#counties-select{
+    font-family: monospace;
+    background-color: lightblue;
+    border: solid 1px grey;
+}
+.zip-stuff{
+    font-family: monospace;
+    background-color: lightblue;
+    border: solid 1px grey;
+    height: fit-content;
+    padding: 2px;
+}
+.gen-input{
+    font-family: monospace;
+    width: 14vh;
+    background-color: lightblue;
+    border: solid 1px grey;
+}
+.background-box{
+    background-color: lightblue;
+    min-height: 7vh;
+    align-content: center;
+    padding-left: 1vh;
+    box-shadow: 4px 4px 10px black;
+}
